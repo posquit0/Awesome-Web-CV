@@ -1,0 +1,133 @@
+.header {
+  padding: 0;
+  background: #2C2A1D;
+  font-family: 'Titillium Web', sans-serif;
+  color: white;
+
+  ::selection {
+    background: #C53A39;
+  }
+}
+
+.header .profile {
+  background: #C53A39;
+
+  ::selection {
+    background: #2C2A1D;
+  }
+}
+
+.profile {
+  padding: 30px;
+  text-align: center;
+
+  .name {
+    margin-top: 0;
+    margin-bottom: 0.4em;
+    font-size: 1.6rem;
+    font-weight: 200;
+
+    em {
+      font-style: normal;
+      font-weight: 900;
+    }
+  }
+  .position {
+    margin-bottom: 0.5em;
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .quote {
+    font-size: 0.9rem;
+  }
+}
+
+.header {
+  .profile-img {
+    max-width: 120px;
+    margin-bottom: 15px;
+  }
+  .contacts {
+    padding: 20px 30px 0px;
+
+    .contact {
+      margin-bottom: 5px;
+      list-style: none;
+      font-size: 14px;
+      color: white;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+      &.homepage a:before {
+        content: "\f015";
+      }
+      &.phone a:before {
+        content: "\f095";
+      }
+      &.email a:before {
+        content: "\f0e0";
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      a:before {
+        display: inline-block;
+        width: 1.5em;
+        font-family: FontAwesome;
+      }
+    }
+  }
+  .socials {
+    margin: 0 auto;
+    padding: 20px 20px 0px;
+    text-align: center;
+
+    .social {
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      margin-left: 5px;
+      margin-right: 5px;
+      line-height: 32px;
+      border-radius: 50%;
+      vertical-align: middle;
+      font-family: FontAwesome;
+      text-align: center;
+      // background: white;
+
+      &:before {
+        font-size: 22px;
+        color: white;
+      }
+      &.github:before {
+        content: "\f09b";
+      }
+      &.gitlab:before {
+        content: "\f296";
+      }
+      &.facebook:before {
+        content: "\f09a";
+      }
+      &.twitter:before {
+        content: "\f099";
+      }
+      &.linkedin:before {
+        content: "\f0e1";
+      }
+      &.homepage:before {
+        content: "\f015";
+      }
+    }
+    a {
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+  }
+  .sections {
+    padding-top: 20px;
+  }
+}

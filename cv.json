@@ -1,0 +1,164 @@
+{
+  "firstName": "Claud D.",
+  "lastName": "Park",
+  "position": "Software Engineer",
+  "quote": "Must be the change that you want to see in the world!",
+  "photo": "https://github.com/posquit0/Awesome-CV/raw/master/examples/profile.png",
+  "contacts": [{
+    "type": "phone",
+    "text": "(+82) 10-9030-1843",
+    "url": ""
+  }, {
+    "type": "email",
+    "text": "posquit0.bj@gmail.com",
+    "url": "mailto:posquit0.bj@gmail.com"
+  }, {
+    "type": "homepage",
+    "text": "posquit0.com",
+    "url": "https://www.posquit0.com"
+  }],
+  "socials": [{
+    "type": "homepage",
+    "text": "posquit0",
+    "url": "https://github.com/posquit0"
+  }, {
+    "type": "github",
+    "text": "posquit0",
+    "url": "https://github.com/posquit0"
+  }, {
+    "type": "linkedin",
+    "text": "posquit0",
+    "url": "https://www.linkedin.com/in/posquit0"
+  }, {
+    "type": "twitter",
+    "text": "posquit0",
+    "url": "https://www.linkedin.com/in/posquit0"
+  }],
+  "sections": [{
+    "title": "Summary",
+    "description": "Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit. You can download this free resume/CV template here. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+  }, {
+    "title": "Work Experience",
+    "type": "detail",
+    "items": [{
+      "title": "Co-founder & Software Engineer",
+      "organization": "PLAT Corp.",
+      "location": "Seoul, S.Korea",
+      "date": "Jan. 2016 - Present",
+      "descriptions": [
+        "Implemented RESTful API server for car rental booking application(CARPLAT in Google Play).",
+        "Developed the Payments module which connected to major PG(Payment Gateway) companies in Korea."
+      ]
+    }, {
+      "title": "Software Engineer & Security Researcher (Compulsory Military Service)",
+      "organization": "R.O.K Cyber Command, MND",
+      "location": "Seoul, S.Korea",
+      "date": "2014.08",
+      "descriptions": [
+        "Lead engineer on agent-less backtracking system that can discover client device's fingerprint(including public and private IP) independently of the Proxy, VPN and NAT.",
+        "Implemented a distributed web stress test tool with high anonymity.",
+        "Implemented a military cooperation system which is web based real time messenger in Scala on Lift."
+      ]
+    }]
+  }, {
+    "title": "Open Source",
+    "type": "github",
+    "items": [{
+      "repository": "posquit0/Awesome-CV",
+      "title": "Owner",
+      "description": null
+    }]
+  }, {
+    "title": "Awards",
+    "type": "simple",
+    "items": [{
+      "title": "Finalist",
+      "organization": "DEFCON 22nd CTF Hacking Competition World Final",
+      "location": "Las Vegas, U.S.A",
+      "date": "2014"
+		}, {
+      "title": "Finalist",
+      "organization": "DEFCON 21st CTF Hacking Competition World Final",
+      "location": "Las Vegas, U.S.A",
+      "date": "2013"
+		}, {
+      "title": "Finalist",
+      "organization": "DEFCON 19th CTF Hacking Competition World Final",
+      "location": "Las Vegas, U.S.A",
+      "date": "2011"
+		}, {
+      "title": "6th Place",
+      "organization": "SECUINSIDE Hacking Competition World Final",
+      "location": "Seoul, S.Korea",
+      "date": "2012"
+		}, {
+      "title": "3rd Place",
+      "organization": "WITHCON Hacking Competition Final",
+      "location": "Seoul, S.Korea",
+      "date": "2015"
+		}, {
+      "title": "Silver Prize",
+      "organization": "KISA HDCON Hacking Competition Final",
+      "location": "Seoul, S.Korea",
+      "date": "2013"
+		}, {
+      "title": "2nd Place",
+      "organization": "HUST Hacking Festival",
+      "location": "S.Korea",
+      "date": "2013"
+		}, {
+      "title": "3rd Place",
+      "organization": "HUST Hacking Festival",
+      "location": "S.Korea",
+      "date": "2010"
+		}, {
+      "title": "3rd Place",
+      "organization": "Holyshield Hacking Festival",
+      "location": "S.Korea",
+      "date": "2012"
+		}, {
+      "title": "2nd Place",
+      "organization": "Holyshield Hacking Festival",
+      "location": "S.Korea",
+      "date": "2011"
+		}, {
+      "title": "5th Place",
+      "organization": "PADOCON Hacking Competition Final",
+      "location": "Seoul, S.Korea",
+      "date": "2011"
+    }]
+  }, {
+    "title": "Presentation",
+    "type": "simple",
+    "items": []
+  }, {
+    "title": "Program Committees",
+    "type": "simple",
+    "items": [{
+      "title": "Problem Writer",
+      "organization": "CODEGATE Hacking Competition World Final",
+      "location": "S.Korea",
+      "date": "2016"
+		}, {
+      "title": "Organizer & Co-director",
+      "organization": "1st POSTECH Hackathon",
+      "location": "S.Korea",
+      "date": "2013"
+		}, {
+      "title": "Staff",
+      "organization": "7th Hacking Camp",
+      "location": "S.Korea",
+      "date": "2012"
+		}, {
+      "title": "Staff & Problem Writer",
+      "organization": "JFF Hacking Competition",
+      "location": "S.Korea",
+      "date": "2012"
+		}, {
+      "title": "Problem Writer",
+      "organization": "1st Hoseo University Hacking Competition for Teenager",
+      "location": "S.Korea",
+      "date": "2012"
+    }]
+  }]
+}

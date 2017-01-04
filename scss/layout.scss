@@ -1,0 +1,52 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*
+ * Mobile Layout (Default)
+ */
+.wrap {
+  display: block;
+  position: relative;
+  width: 95%;
+  margin: 0 auto;
+  overflow: hidden;
+
+  &:after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+}
+
+.header, .content {
+  display: inline-block;
+  width: 100%;
+  float: left;
+}
+
+.content {
+  padding: 28px;
+}
+
+/*
+ * Wide Layout
+ */
+@media screen and (min-width: 1024px) {
+  .wrap {
+    width: 1024px;
+    margin: 0 auto;
+  }
+  .header {
+    position: absolute;
+    height: 100%;
+    width: 25%;
+  }
+  .content {
+    width: 75%;
+    float: right;
+    padding: 50px;
+  }
+}
