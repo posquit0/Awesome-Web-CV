@@ -5,11 +5,11 @@ Under the development.
 
 ## <a name="usage">Usage
 
-```
-	> git clone https://github.com/posquit0/awesome-web-cv
-	> cd awesome-web-cv
-  > npm install
-  > npm start
+```bash
+  $ git clone https://github.com/posquit0/awesome-web-cv
+  $ cd awesome-web-cv
+  $ npm install
+  $ npm start
 ```
 
 ## <a name="contact">Contact
