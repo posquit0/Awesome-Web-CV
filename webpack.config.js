@@ -1,26 +1,31 @@
-module.exports = {
-  entry: [
-    './src/index.js'
-  ],
+const webpack = require('webpack');
+const path = require('path');
+
+const config = {
+  entry: {
+    main: './src/index.js'
+  },
   output: {
-    path: __dirname,
-    publicPath: '/',
-    filename: 'bundle.js'
+    path: path.resolve(__dirname, 'dist'),
+    filename: '[name].js'
   },
   module: {
-    loaders: [{
+    rules: [{
+      test: /\.(js|jsx)$/,
       exclude: /node_modules/,
-      loader: 'babel',
-      query: {
-        presets: ['react', 'es2015', 'stage-1']
-      }
+      loader: 'babel-loader'
     }]
   },
-  resolve: {
-    extensions: ['', '.js', '.jsx']
-  },
+  plugins: [
+    new webpack.optimize.UglifyJsPlugin()
+  ],
+  // resolve: {
+  //   extensions: ['', '.js', '.jsx']
+  // },
   devServer: {
     historyApiFallback: true,
     contentBase: './'
   }
 };
+
+module.exports = config;
