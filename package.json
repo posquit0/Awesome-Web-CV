@@ -2,10 +2,16 @@
   "name": "awesome-web-cv",
   "version": "0.0.1",
   "description": "Awesome Web CV which can be configured with JSON/YAML data",
-  "main": "index.js",
+  "license": "MIT",
+  "author": "Claud D. Park <posquit0.bj@gmail.com> (http://www.posquit0.com)",
+  "contributors": [],
+  "homepage": "https://github.com/posquit0/awesome-web-cv",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/posquit0/awesome-web-cv"
+  },
+  "bugs": {
+    "url": "https://github.com/posquit0/awesome-web-cv/issues"
   },
   "keywords": [
     "node",
@@ -17,17 +23,21 @@
     "react",
     "redux"
   ],
+  "main": "index.js",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --host=0.0.0.0 --port=9999",
+    "build": "webpack",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch"
   },
-  "author": "Claud D. Park <posquit0.bj@gmail.com> (http://www.posquit0.com)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/posquit0/awesome-web-cv/issues"
+  "dependencies": {
+    "axios": "^0.15.3",
+    "babel-preset-stage-1": "^6.1.18",
+    "lodash": "^3.10.1",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-helmet": "^3.2.3"
   },
-  "homepage": "https://github.com/posquit0/awesome-web-cv",
   "devDependencies": {
     "babel-core": "^6.2.1",
     "babel-loader": "^6.2.0",
@@ -39,15 +49,7 @@
     "jsdom": "^8.1.0",
     "mocha": "^2.4.5",
     "react-addons-test-utils": "^0.14.7",
-    "webpack": "^1.12.9",
-    "webpack-dev-server": "^1.14.0"
-  },
-  "dependencies": {
-    "axios": "^0.15.3",
-    "babel-preset-stage-1": "^6.1.18",
-    "lodash": "^3.10.1",
-    "react": "^15.4.1",
-    "react-dom": "^15.4.1",
-    "react-helmet": "^3.2.3"
+    "webpack": "^2.3.1",
+    "webpack-dev-server": "^2.4.2"
   }
 }
