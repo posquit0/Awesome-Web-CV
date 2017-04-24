@@ -20,4 +20,4 @@ If you have any questions, feel free to join me at [`#posquit0` on Freenode](irc
 ## <a name="license">License
 
 - Claud D. Park <posquit0.bj@gmail.com>
-- [MIT Liense](https://github.com/posquit0/node-apistore-sms/blob/master/LICENSE)
+- [MIT License](https://github.com/posquit0/node-apistore-sms/blob/master/LICENSE)
