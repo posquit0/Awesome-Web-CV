@@ -7,7 +7,7 @@
 </div>
 
 <p align="center">
-  One Page Web Application for Your Outstanding CV
+  Single Page Web Application for Your Outstanding CV
 </p>
 
 <div align="center">
@@ -26,7 +26,7 @@
 
 *Under the development.*
 
-**Awesome Web CV** is one page web application for your professional **CV(Curriculum Vitae)**, **Résumé**. All you need to do is to write your data and configuration **in JSON/YAML format**.
+**Awesome Web CV** is a single page web application for your professional **CV(Curriculum Vitae)**, **Résumé**. All you need to do is to write your data and configuration **in JSON/YAML format**.
 
 
 
